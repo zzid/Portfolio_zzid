@@ -1,23 +1,34 @@
 import React from 'react';
 
-import { Card } from './component';
+import { Route, Link } from 'react-router-dom';
 
-import profile_picture from './images/profile_picture.jpeg'
+import { Home, About, ReactLogo } from './pages';
 import title_pic from './images/title.png'
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
+    <>
+
     <div className="App">
       <header>
-        <img src={title_pic} alt='img err' style={{margin: '7vh', width:'38vw'}}></img>
+        <div className="header-div">
+          <img src={title_pic} alt='img err' style={{margin: '7vh', width:'38vw'}}/>
+          <div style={{alignItems:'flex-end'}}>
+            <Link to='/'>Home</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/react-logo'>React Logo</Link>
+          </div>
+        </div>
       </header>
-      {/* <img src={logo} className="App-logo" alt="logo" /> */}
-      <div className="container">
-        <Card/>
-      </div>
+
     </div>
+    <div>
+      <Route exact path="/" component={Home}/>
+      <Route path="/about" component={About}/>
+      <Route path="/react-logo" component={ReactLogo}/>
+    </div>
+    </>
   );
 }
 
