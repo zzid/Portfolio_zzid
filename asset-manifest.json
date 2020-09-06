@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio_zzid/static/css/main.0ad42ab0.chunk.css",
-    "main.js": "/Portfolio_zzid/static/js/main.8af43665.chunk.js",
-    "main.js.map": "/Portfolio_zzid/static/js/main.8af43665.chunk.js.map",
+    "main.css": "/Portfolio_zzid/static/css/main.9eadc964.chunk.css",
+    "main.js": "/Portfolio_zzid/static/js/main.2e3e618d.chunk.js",
+    "main.js.map": "/Portfolio_zzid/static/js/main.2e3e618d.chunk.js.map",
     "runtime-main.js": "/Portfolio_zzid/static/js/runtime-main.2a9844a8.js",
     "runtime-main.js.map": "/Portfolio_zzid/static/js/runtime-main.2a9844a8.js.map",
-    "static/js/2.62ce2e6a.chunk.js": "/Portfolio_zzid/static/js/2.62ce2e6a.chunk.js",
-    "static/js/2.62ce2e6a.chunk.js.map": "/Portfolio_zzid/static/js/2.62ce2e6a.chunk.js.map",
+    "static/js/2.07006693.chunk.js": "/Portfolio_zzid/static/js/2.07006693.chunk.js",
+    "static/js/2.07006693.chunk.js.map": "/Portfolio_zzid/static/js/2.07006693.chunk.js.map",
     "index.html": "/Portfolio_zzid/index.html",
-    "precache-manifest.c34fe0c280c4e8b84c8b8363f1feef6f.js": "/Portfolio_zzid/precache-manifest.c34fe0c280c4e8b84c8b8363f1feef6f.js",
+    "precache-manifest.980bdb23e8e25b91201cc00c6112d341.js": "/Portfolio_zzid/precache-manifest.980bdb23e8e25b91201cc00c6112d341.js",
     "service-worker.js": "/Portfolio_zzid/service-worker.js",
-    "static/css/main.0ad42ab0.chunk.css.map": "/Portfolio_zzid/static/css/main.0ad42ab0.chunk.css.map",
-    "static/js/2.62ce2e6a.chunk.js.LICENSE.txt": "/Portfolio_zzid/static/js/2.62ce2e6a.chunk.js.LICENSE.txt",
+    "static/css/main.9eadc964.chunk.css.map": "/Portfolio_zzid/static/css/main.9eadc964.chunk.css.map",
+    "static/js/2.07006693.chunk.js.LICENSE.txt": "/Portfolio_zzid/static/js/2.07006693.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/Portfolio_zzid/static/media/logo.5d5d9eef.svg",
-    "static/media/App.css": "/Portfolio_zzid/static/media/profile_picture.bc97adc6.jpeg",
+    "static/media/Home.module.css": "/Portfolio_zzid/static/media/profile_picture.bc97adc6.jpeg",
     "static/media/title.png": "/Portfolio_zzid/static/media/title.1ffd25d9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2a9844a8.js",
-    "static/js/2.62ce2e6a.chunk.js",
-    "static/css/main.0ad42ab0.chunk.css",
-    "static/js/main.8af43665.chunk.js"
+    "static/js/2.07006693.chunk.js",
+    "static/css/main.9eadc964.chunk.css",
+    "static/js/main.2e3e618d.chunk.js"
   ]
 }
