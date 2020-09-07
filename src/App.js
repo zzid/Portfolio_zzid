@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Route, NavLink } from 'react-router-dom';
-
+import { Route, NavLink, Switch, useLocation} from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { Home, ProjectsPage, AboutPage, ReactLogo } from './pages';
 
 import { Footer } from './component';
@@ -12,6 +12,7 @@ import './App.css';
 const base_url = '/Portfolio_zzid'
 
 function App() {
+  const location = useLocation();
   return (
     <>
 
@@ -23,18 +24,19 @@ function App() {
             <NavLink exact to={base_url} activeClassName='is-active'>Home</NavLink>
             <NavLink to={`${base_url}/projects`} activeClassName='is-active'>Projects</NavLink>
             <NavLink to={`${base_url}/about`} activeClassName='is-active'>About</NavLink>
-            {/* <NavLink to={`${base_url}/react-logo`} activeClassName='is-active'>React Logo</NavLink> */}
           </div>
         </div>
       </header>
-
     </div>
-    <div>
-      <Route exact path={base_url} component={Home}/>
-      <Route path={`${base_url}/about`} component={AboutPage}/>
-      {/* <Route path={`${base_url}/react-logo`} component={ReactLogo}/> */}
-      <Route path={`${base_url}/projects`} component={ProjectsPage}/>
-    </div>
+      <TransitionGroup>
+        <CSSTransition key={location.key} timeout={300} classNames="fade">
+          <Switch location={location}>
+            <Route exact path={base_url} component={Home}/>
+            <Route path={`${base_url}/about`} component={AboutPage}/>
+            <Route path={`${base_url}/projects`} component={ProjectsPage}/>
+          </Switch>
+        </CSSTransition>
+      </TransitionGroup>
 
     <Footer/>
     </>

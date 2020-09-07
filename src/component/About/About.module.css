@@ -1,5 +1,6 @@
 .container {
-    max-width: 70vw;
+    width: 100%;
+    position: absolute;
     margin: auto auto;
     display: flex;
     flex-direction: column;

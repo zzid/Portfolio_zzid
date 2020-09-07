@@ -14,10 +14,10 @@ import ghImg from '../../images/GitHub-Mark-64px.png';
 const About = () =>{
     const Sect = ({title,text,duration}) => {
         return (
-            <div style={{width: '20vw'}}>
-                <div>
-                    <div style={{fontWeight:"bold"}}>{title}</div>
-                    <div>{text}</div>
+            <div style={{width: '20vw', margin:"0 10px"}}>
+                <div style={{borderTop:'5px solid #000000aa', paddingTop:'3px', borderRadius:'2px'}}>
+                    <div style={{fontWeight:'bold'}}>{title}</div>
+                    <div style={{fontWeight:'lighter', fontSize:"80%"}}>{text}</div>
                     <div style={{fontSize:"80%",fontWeight:"initial"}}>{duration}</div>
                 </div>
             </div>
@@ -28,12 +28,12 @@ const About = () =>{
             <h2>EDUCATION</h2>
             <div style={{display:'flex', flexDirection:"row"}}>
                 <Sect
-                    title="Bachelor of Science: "
+                    title="Bachelor of Science"
                     text="Computer Science Pusan National University - Busan, Korea Computer Science Engineering"
                     duration="(2014 - 2020)"
                 />
                 <Sect
-                    title="Cloud & MSA Education : "
+                    title="Cloud & MSA Education"
                     text="Multicampus Education"
                     duration="(2020.07 - 2020.12)"
                 />

@@ -3,7 +3,7 @@ import { Projects } from '../component';
 
 const ProjectsPage = () =>{
     return(
-        <div>
+        <div >
             <Projects/>
         </div>
     )

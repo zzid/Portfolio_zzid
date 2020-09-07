@@ -6,7 +6,7 @@ const Card = () => {
     return(
         <>
         {/* <div className={styles.container}> */}
-        <div className={styles.cardDiv}>
+        <div className={styles.container}>
             <img className={styles.imgDiv} src={myImg} alt="img err"></img>
             <div className={styles.texts}>
                 <h2 className={styles.text}>Hello world! I'm zzid</h2>
