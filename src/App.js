@@ -23,7 +23,7 @@ function App() {
             <NavLink exact to={base_url} activeClassName='is-active'>Home</NavLink>
             <NavLink to={`${base_url}/projects`} activeClassName='is-active'>Projects</NavLink>
             <NavLink to={`${base_url}/about`} activeClassName='is-active'>About</NavLink>
-            <NavLink to={`${base_url}/react-logo`} activeClassName='is-active'>React Logo</NavLink>
+            {/* <NavLink to={`${base_url}/react-logo`} activeClassName='is-active'>React Logo</NavLink> */}
           </div>
         </div>
       </header>
@@ -32,7 +32,7 @@ function App() {
     <div>
       <Route exact path={base_url} component={Home}/>
       <Route path={`${base_url}/about`} component={AboutPage}/>
-      <Route path={`${base_url}/react-logo`} component={ReactLogo}/>
+      {/* <Route path={`${base_url}/react-logo`} component={ReactLogo}/> */}
       <Route path={`${base_url}/projects`} component={ProjectsPage}/>
     </div>
 

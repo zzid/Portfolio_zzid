@@ -1,7 +1,16 @@
 import React from 'react';
 import styles from './About.module.css';
 import ghImg from '../../images/GitHub-Mark-64px.png';
-// import mailImg from '../../images/mail.png';
+
+
+/**
+ * TODO ::
+ *      EDU prog link
+ *      EDU prog certification doc
+ *      Should i upload project on univ? 
+ *      TIL?
+ * 
+ */
 const About = () =>{
     const Sect = ({title,text,duration}) => {
         return (
