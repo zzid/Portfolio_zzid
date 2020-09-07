@@ -5,13 +5,12 @@
 ### TODO
 <pre>
 Tech stack
-[ ] Redux
-[ ] React router
+<del>[ ] Redux</del>
+[V] React router
 
 Contents
-[ ] Project (Univ)
-[ ] Project (Edu prog)
-[ ] Tech stack i have 
-[ ] ... should think about this
-
+[ ] Project description
+[ ] Project (Univ) 
+[V] Project (Edu prog)
+[ ] Tech stack i have [ >> About Page]
 </pre>

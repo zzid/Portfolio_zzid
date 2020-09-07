@@ -7,12 +7,12 @@ const Card = () => {
         <>
         {/* <div className={styles.container}> */}
         <div className={styles.cardDiv}>
-            <img className={styles.imgDiv} src={myImg}></img>
-            <div className={styles.text}>
-                <p>Hello world! I'm zzid.</p>
-                <p>DongYun Hwang</p>
-                <p>From Republic of Korea</p>
-                <p>I'm big on Front-end develop</p>
+            <img className={styles.imgDiv} src={myImg} alt="img err"></img>
+            <div className={styles.texts}>
+                <h2 className={styles.text}>Hello world! I'm zzid</h2>
+                <p className={styles.text}>DongYun Hwang</p>
+                <p className={styles.text}>From Republic of Korea</p>
+                <p className={styles.text}>I'm big on Web Front-end develop</p>
             </div>
         </div>
 

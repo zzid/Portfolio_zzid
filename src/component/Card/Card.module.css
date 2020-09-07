@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-position: center;
     /* align-items: center; */
-    justify-content: end;
+    justify-content: flex-end;
 }
 .cardDiv {
     width: 80vw;
@@ -23,16 +23,18 @@
     margin : auto 3vw;
     border-radius: 2rem;
 }
-.text {
+.texts {
     /* color : rgb(54, 219, 224); */
     /* min-height: 30vh; */
-    font-family: 'Roboto Mono', monospace;
-    margin:auto auto;
-    width:55vw;
+    width:40vw;
     color: black;
     font-size: 130%;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-}   
+    margin : auto auto;
+} 
+.text {
+    margin : 2px;
+}
