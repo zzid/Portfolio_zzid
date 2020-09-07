@@ -25,8 +25,32 @@
 
 .header-div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.link-div {
+  align-items: center;
+  margin-bottom: 6vh;
 
+}
+.link-div a {
+  font-size: 120%;
+  font-weight: bolder;
+  text-decoration: none;
+  margin : auto 3vw;
+  /* color : rgb(135, 206, 235); */
+  color : black;
+  /* padding : 1vh auto; */
+  border-bottom: 3px solid rgb(149, 225, 255);
+}
+.link-div a:hover {
+  /* color : rgba(0, 0, 0, 0.5); */
+  opacity: 0.5;
+  border-bottom: 0px;
+}
+.link-div a.is-active {
+  font-size: 130%;
+  /* opacity: 0.5; */
+  border-bottom: 0px;
+}
