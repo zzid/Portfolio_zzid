@@ -14,7 +14,7 @@ import ghImg from '../../images/GitHub-Mark-64px.png';
 const About = () =>{
     const Sect = ({title,text,duration}) => {
         return (
-            <div style={{width: '20vw', margin:"0 10px"}}>
+            <div style={{width: '30vw', margin:"0 10px"}}>
                 <div style={{borderTop:'5px solid #000000aa', paddingTop:'3px', borderRadius:'2px'}}>
                     <div style={{fontWeight:'bold'}}>{title}</div>
                     <div style={{fontWeight:'lighter', fontSize:"80%"}}>{text}</div>

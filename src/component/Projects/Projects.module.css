@@ -20,7 +20,11 @@
   justify-content: center;
   font-size: calc(10px + 1.5vmin);
 }
-
+/* @media only screen and (max-width: 770px) {
+  .container{
+    font-size : .8rem;
+  }
+} */
 .container a{
   text-decoration : none;
   color : black;
