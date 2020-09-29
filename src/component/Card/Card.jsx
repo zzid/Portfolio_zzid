@@ -12,7 +12,7 @@ const Card = () => {
                 <h2 className={styles.text}>Hello world! I'm zzid</h2>
                 <p className={styles.text}>DongYun Hwang</p>
                 <p className={styles.text}>From Republic of Korea</p>
-                <p className={styles.text}>I'm big on Web Front-end develop</p>
+                <p className={styles.text}>I'm big on Web Front-end development</p>
             </div>
         </div>
 
