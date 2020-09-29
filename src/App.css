@@ -17,6 +17,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.title-pic {
+  margin: 7vh;
+  width: 40vw;
+}
+@media only screen and (max-width: 770px) {
+  .title-pic {
+    width: 80vw;
+  }
+}
 
 .App-link {
   color: #61dafb;

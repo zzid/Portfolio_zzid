@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <header>
         <div className="header-div">
-          <img src={titlePic} alt='img err' style={{margin: '7vh', width:'40vw'}}/>
+          <img src={titlePic} alt='img err' className="title-pic"/>
           <div className="link-div">
             <NavLink exact to={baseURL} activeClassName='is-active'>Home</NavLink>
             <NavLink to={`${baseURL}/projects`} activeClassName='is-active'>Projects</NavLink>
