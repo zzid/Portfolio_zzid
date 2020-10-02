@@ -19,7 +19,7 @@ const Projects = () =>{
               text="Android application Project on University"
             />
             <LinkAndTextLi
-              link="https://zzid.github.io/PNU_CSE_19_TEAM_11/Parking_Tower/gui/gui.html"
+              link="https://github.com/zzid/PNU_CSE_19_TEAM_11"
               text="Graduation Project"
             />
             <LinkAndTextLi
